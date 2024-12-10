@@ -3,7 +3,9 @@
 ### UM-Dearborn ECE 591 - Directed Studies
 
 Description - Snake robot simulation data (angular position vs. time) are converted into audio files in a process called sonification
+
 Video - 
+
 Article - 
 
 Overview:
