@@ -13,7 +13,7 @@ Overview:
   
 Tutorial - 
 1. Download CoppeliaSim software -> https://www.coppeliarobotics.com/
-2. Download and open provided robotic simulation files (under 'CoppeliaSim Simulation Files')
+2. Download and open provided robotic simulation files (under 'Simulation Files' directory)
    - Serpentine_Baseline.ttt
    - Serpentine_Case2.ttt
    - Serpentine_Case3.ttt
@@ -24,7 +24,7 @@ Tutorial -
 3. Open a simulation to modify the gait parameters and 'csv' file name
 4. Run the simulation
 5. Locate the 'csv' file on local drive
-6. Download the provided sonification code 
+6. Download the provided sonification code (under 'Sonification Code' directory)
    - Serpentine.ipynb
    - Rectilinear.ipynb
    - Eel.ipynb
