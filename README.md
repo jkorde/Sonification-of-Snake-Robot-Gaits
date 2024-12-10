@@ -35,8 +35,8 @@ Tutorial -
 9. Run the sonification code
 10. Download the '.midi' file from the Google Colab environment to save the audio
 
-Contact:
-Julia Korde - jkorde@umich.edu
+Author:
+Julia Korde
 
 References for Code Development:
 - https://jbrussell.github.io/eilive2020/part2a_sonification/
