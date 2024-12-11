@@ -30,14 +30,24 @@ Tutorial -
    - Serpentine.ipynb
    - Rectilinear.ipynb
    - Eel.ipynb
-7. Open the correct sonification code (matching the simulation) in Google Colab
-8.  Upload the 'csv' file to use for the sonification to the Google Colab code environment
-9. Run the sonification code
-10. Download the '.midi' file from the Google Colab environment to save the audio
+7. Download the provided music clips (under 'Music to Modify' directory)
+   - Mozart.mp3 (see ref. [1])
+   - Dvorak1.mp3 (see ref. [2])
+   - Dvorak2.mp3 (see ref. [2])
+9. Open the correct sonification code (matching the simulation) in Google Colab
+10.  Upload the 'csv' file to use for the sonification to the Google Colab code environment
+11. Run the sonification code
+    - Note: For 'Music Modification' section, check that a music clips is uploaded to the Google Colab code environment)
+12. Download the '.midi' file from the Google Colab environment to save the audio
 
 Author:
 Julia Korde
 
-References for Code Development:
+References:
+[1]: Mozart, W.A. (1783). Piano Sonata No. 11 in A Major, K.331/330i, Rondo alla Turca: Allegretto. Album: Walter Gieseking: Historic Broadcast Performances (1944-1950).
+
+[2]: Dvorak, A (1893). Symphony No. 9 in E minor Op.95 From the New World I.Adagio-Allegro molto. Album: LSO Live, London Symphony Orchestra (2005).
+
+Sources for Code Development:
 - https://jbrussell.github.io/eilive2020/part2a_sonification/
 - https://medium.com/@astromattrusso/sonification-101-how-to-convert-data-into-music-with-python-71a6dd67751
