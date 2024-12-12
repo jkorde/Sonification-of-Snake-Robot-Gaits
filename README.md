@@ -9,7 +9,7 @@ Advisor - Dr. Alireza Mohammadi
 
 ### Description - Snake robot simulation data (angular position vs. time) are converted into audio files in a process called sonification
 
-## Video - 
+## Video - https://youtu.be/A_cKRoLog4c
 
 ## Article - 
 
