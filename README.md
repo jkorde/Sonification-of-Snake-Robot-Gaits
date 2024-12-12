@@ -55,3 +55,6 @@ Advisor - Dr. Alireza Mohammadi
 ### Sources for Code Development:
 - https://jbrussell.github.io/eilive2020/part2a_sonification/
 - https://medium.com/@astromattrusso/sonification-101-how-to-convert-data-into-music-with-python-71a6dd67751
+
+### Paper for Further Reading:
+- https://link.springer.com/article/10.1007/s11042-023-15385-y
