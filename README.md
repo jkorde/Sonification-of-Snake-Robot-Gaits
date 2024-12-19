@@ -11,7 +11,8 @@ Advisor - Dr. Alireza Mohammadi
 
 ## Video - https://youtu.be/A_cKRoLog4c
 
-## Article - [Snake_Robot_Sonification.pdf](https://github.com/user-attachments/files/18203715/Snake_Robot_Sonification.pdf)
+## Article - [ECE591_Snake_Robot_Sonification.pdf](https://github.com/user-attachments/files/18204222/ECE591_Snake_Robot_Sonification.pdf)
+
 
 
 ### Overview:
