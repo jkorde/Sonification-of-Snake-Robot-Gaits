@@ -11,7 +11,8 @@ Advisor - Dr. Alireza Mohammadi
 
 ## Video - https://youtu.be/A_cKRoLog4c
 
-## Article - 
+## Article - [Snake_Robot_Sonification.pdf](https://github.com/user-attachments/files/18203715/Snake_Robot_Sonification.pdf)
+
 
 ### Overview:
 1. Create snake robot simulations
@@ -29,9 +30,16 @@ Advisor - Dr. Alireza Mohammadi
    - Rectilinear_Case2.ttt
    - Rectilinear_Case3.ttt
    - Eel_Baseline.ttt
-3. Open a simulation to modify the gait parameters and 'csv' file name
+4. Open a simulation to modify the gait parameters and 'csv' file name
+   
+   ![image](https://github.com/user-attachments/assets/c926698c-d361-41c5-99b8-adfae7324c23)
+   ![image](https://github.com/user-attachments/assets/5cb63881-6952-4a4a-b9c1-e4e907793fb8)
 4. Run the simulation
+   
+   ![image](https://github.com/user-attachments/assets/23efb23a-87ed-42ea-a2a8-d4923493eb73)
 5. Locate the 'csv' file on local drive
+   
+   ![image](https://github.com/user-attachments/assets/b4e19d81-7f5d-4daa-a5dd-2abecbf72380)
 6. Download the provided sonification code (under 'Sonification Code' directory)
    - Serpentine.ipynb
    - Rectilinear.ipynb
@@ -40,11 +48,28 @@ Advisor - Dr. Alireza Mohammadi
    - Mozart.mp3 (see ref. [1])
    - Dvorak1.mp3 (see ref. [2])
    - Dvorak2.mp3 (see ref. [2])
-9. Open the correct sonification code (matching the simulation) in Google Colab
-10.  Upload the 'csv' file to use for the sonification to the Google Colab code environment
-11. Run the sonification code
+8. Open the correct sonification code (matching the simulation) in Google Colab
+9.  Upload the 'csv' file to use for the sonification to the Google Colab code environment
+    
+     ![image](https://github.com/user-attachments/assets/bce935f5-e06b-47b9-8d99-063a01a67ec6)
+10. Run the sonification code
     - Note: For 'Music Modification' section, check that a music clips is uploaded to the Google Colab code environment)
-12. Download the '.midi' file from the Google Colab environment to save the audio
+      
+    ![image](https://github.com/user-attachments/assets/01261752-c235-44f7-ac1f-c2ce19fb5837)
+11. Download the '.wav' or 'mp3' file from the Google Colab environment to save the audio
+
+
+### Remarks/Challenges:
+- The scaling compression factor (f_scale) was linked to the max position value (max_vpos), if it was above 1 then some of the lower values merged into one low note
+  
+  ![image](https://github.com/user-attachments/assets/76dd4d0a-ef20-4ef9-b2ca-608059d6eafc)
+  
+- To create a larger audible difference to the position peaks (max_vpos), it was linked to the maximum and minimum volume with an exponential function
+  ![image](https://github.com/user-attachments/assets/cb0ada52-768d-47a4-9977-54cd7838474a)
+
+- The rectilinear gait had a sensitivity to changes in gait parameters, so only 2 scenarios were modeled
+
+
 
 ### References:
 
